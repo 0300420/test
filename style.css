@@ -1,0 +1,134 @@
+/* 전체 페이지 스타일 */
+body {
+  background-color: #f2f2f2;
+}
+
+/* header 스타일 */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* 프로필 스타일 */
+.profile {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.profile .avatar {
+  float: left;
+  margin-right: 20px;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile ul {
+  list-style: none;
+}
+
+.profile li {
+  margin-bottom: 10px;
+}
+
+.profile li strong {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* 설정 스타일 */
+.settings {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.settings h2 {
+  margin-bottom: 10px;
+}
+
+.settings ul {
+  list-style: none;
+}
+
+.settings li {
+  margin-bottom: 10px;
+}
+
+.settings a {
+  color: #333;
+}
+
+/* 구매 기록 스타일 */
+.purchase-history {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.purchase-history h2 {
+  margin-bottom: 10px;
+}
+
+.purchase-history table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.purchase-history th, .purchase-history td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.purchase-history th {
+  background-color: #333;
+  color: #fff;
+}
+
+.purchase-history td:first-child {
+  font-weight: bold;
+}
+
+/* footer 스타일 */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
